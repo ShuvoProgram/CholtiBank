@@ -33,7 +33,7 @@ import { IJwtDecoded } from "@/types/user";
 import { authKey } from "@/constants/storageKeys";
 import ThemeWiseImageLoader from "@/components/Utility/ThemeWiseImageLoader";
 
-import lightThemeLogo from "@/assets/Navbar/Light/choltiBank.png";
+import lightThemeLogo from "./../../../assets/Navbar/Light/choltiBank.png";
 import darkThemeLogo from "@/assets/Navbar/Dark/choltiBank_dark_1.png";
 
 

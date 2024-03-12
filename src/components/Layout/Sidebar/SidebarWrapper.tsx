@@ -1,14 +1,14 @@
-"use client";
 import React from "react";
-import { Sidebar } from "./sidebar.styles";
-import { CollapseItems } from "./collapse-items";
-import { SidebarItem } from "./sidebar-item";
 import { useRouter } from "next/navigation";
 import { usePathname } from "next/navigation";
 import { useAppDispatch, useAppSelector } from "@/redux/hooks";
 import { setCollapsed } from "@/redux/slices/sidebarSlice";
 import Link from "next/link";
 import ThemeWiseImageLoader from "@/components/Utility/ThemeWiseImageLoader";
+import { Sidebar } from "@/components/Layout/Sidebar/sidebarStyles";
+import { CollapseItems } from "@/components/Layout/Sidebar/collapseItems";
+import { SidebarItem } from "@/components/Layout/Sidebar/sidebarItem";
+
 export const SidebarWrapper = ({ menuItems }: { menuItems: any }) => {
   const router = useRouter();
   const dispatch = useAppDispatch();
@@ -21,9 +21,9 @@ export const SidebarWrapper = ({ menuItems }: { menuItems: any }) => {
 
   return (
     <div className="">
-      {collapsed ? (
+      {collapsed && (
         <div className={Sidebar.Overlay()} onClick={handleOverlayClick} />
-      ) : null}
+      )}
       <div
         className={Sidebar({
           collapsed: collapsed,

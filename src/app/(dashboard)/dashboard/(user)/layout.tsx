@@ -1,7 +1,7 @@
 "use client";
 
 import DashboardHeader from "@/components/Layout/Header/DashboardHeader";
-import { SidebarWrapper } from "@/components/Layout/sidebar/SidebarWrapper";
+import { SidebarWrapper } from "@/components/Layout/Sidebar/SidebarWrapper";
 
 import React from "react";
 import { RiHomeOfficeFill } from "react-icons/ri";

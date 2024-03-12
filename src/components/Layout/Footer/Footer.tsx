@@ -167,7 +167,7 @@ const Footer = () => {
           © 2023{" "}
           <Link
             className=" font-bold text-primary dark:text-yellow-500"
-            href="https://github.com/git-sujon"
+            href="https://github.com"
           >
             CholtiBank
           </Link>

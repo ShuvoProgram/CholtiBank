@@ -1,7 +1,7 @@
 "use client";
 
 import DashboardHeader from "@/components/Layout/Header/DashboardHeader";
-import { SidebarWrapper } from "@/components/Layout/sidebar/SidebarWrapper";
+// import { SidebarWrapper } from "@/components/Layout/sidebar/SidebarWrapper";
 
 import React from "react";
 import { RiHomeOfficeFill } from "react-icons/ri";
@@ -10,6 +10,7 @@ import { AiOutlineTransaction } from "react-icons/ai";
 import { FaRegCreditCard } from "react-icons/fa";
 import { RiBriefcase4Fill } from "react-icons/ri";
 import { CiCreditCard1 } from "react-icons/ci";
+import { SidebarWrapper } from "@/components/Layout/Sidebar/SidebarWrapper";
 const AdminDashboardLayout = ({ children }: { children: React.ReactNode }) => {
 
   // menuItems.js
