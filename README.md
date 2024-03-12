@@ -1,6 +1,6 @@
-![Light Mode Logo](https://github.com/git-sujon/CholtiBank-client/blob/main/public/choltiBank.png?raw=true#gh-light-mode-only)
+![Light Mode Logo](https://github.com/ShuvoProgram/CholtiBank/blob/main/public/choltiBank.png?raw=true#gh-light-mode-only)
 
-![Dark Mode Logo](https://github.com/git-sujon/CholtiBank-client/blob/main/public/choltiBank_dark_1.png?raw=true#gh-dark-mode-only)
+![Dark Mode Logo](https://github.com/ShuvoProgram/CholtiBank/blob/main/public/choltiBank_dark_1.png?raw=true#gh-dark-mode-only)
 
 # CholtiBank - Digital Banking Platform
 
@@ -141,39 +141,7 @@ CholtiBank is the first digital bank in Bangladesh, revolutionizing the banking 
 | Secondary | #04185C  | ![Secondary Color](https://via.placeholder.com/50x30/04185C/ffffff?text=+) |
 
 
-## Getting Started
-
-1. **Clone the repository.**
-
-    ```bash
-    git clone https://github.com/git-sujon/CholtiBank-client.git
-    ```
-2. **Navigate to the project directory:**
-
- ```bash
-   cd CholtiBank-client
-   ```
-
-3. **Install dependencies.**
-
-    ```bash
-    npm install
-    ```
-
-4. **Configure environment variables.**
-
-   - Create a `.env` file based on `.env.example` and provide necessary details.
-
-5. **Run the application.**
-
-    ```bash
-    npm run dev
-    ```
-
- Open your browser and go to `http://localhost:3000`
-
-
 6. **Access the Live Application.**
 
-   Explore the live version of Choltibank [here](https://cholti-bank-client.vercel.app).
+   Explore the live version of Choltibank [here](https://cholti-bank.vercel.app/).
 
